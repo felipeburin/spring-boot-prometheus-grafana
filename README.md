@@ -20,23 +20,17 @@ This sample application is a Spring Boot project that exposes RESTful endpoints 
 
 ## Getting Started
 
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd spring-boot-prometheus-grafana
-   ```
-
-2. Build the project:
+1. Build the project:
    ```
    ./mvnw clean package
    ```
 
-3. Run the Spring Boot application:
+2. Run the Spring Boot application:
    ```
    ./mvnw spring-boot:run
    ```
 
-4. Start Prometheus and Grafana:
+3. Start Prometheus and Grafana:
    ```
    cd ci
    docker-compose up -d
